@@ -1,0 +1,199 @@
+:root{
+    -- link-color: red ;
+    -- text-color;
+    -- text-font-family: "Roboto" sans-serif;
+}
+
+.body {
+    font-family: "Roboto",sans-serif;
+    color: #434455
+}
+
+
+.global-header a
+.global-header a:visited{
+    color: var(-- link color);
+}
+
+.logo1::before {
+    content: "Web";
+    color:blue; 
+    font-weight: 800;
+    Width: 115px;
+    Height: 24px;
+}
+
+.logo1::after {
+    content: "Studio";
+    color:black;
+    font-weight: 800;
+}   
+
+.global-header li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.global-header {
+    color: #2E2F42;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 72px;
+    margin-block-start: 0%;
+    border: 15px #E7E9F;
+    padding: 24px;
+    text-decoration: none;
+
+}
+.global-header :hover {
+   color:chartreuse;
+}
+.linkk {
+    text-decoration: none;
+}
+
+.button {
+    Width: 261px;
+    Height: 24px;
+    Gap: 40px;
+    Weight: 500;
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 0%;
+}
+
+.contact1 {
+    color: black;
+    Width: 153px;
+    Height: 24px;
+    text-decoration: none;
+}
+
+.contact2 {
+   color: black;
+   Width: 151px;
+   Height: 24px;
+   text-decoration: none;
+}
+
+.global-section{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1440px;
+    background: linear-gradient(90deg, rgba(237, 198, 105, 0.47951680672268904) 8%, rgba(242, 193, 150, 1) 40%, rgba(224, 77, 36, 1) 50%, rgba(249, 255, 0, 1) 84%); url ("./images/people-office");
+    background: url("./images/1.jpg");
+}
+
+
+.title{
+    font-weight: 700;
+    size: 56px;
+    line height: 60px;
+}   
+.buten-order {
+        background-color: #4D5AE5;
+        color: white;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.list .enumeration {
+    color:#2E2F42;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+display: flex;
+justify-content: center;
+width: 1200px;
+}
+
+.aboute-us {
+   color:#2E2F42 ;
+   display: flex;
+   justify-content: center; 
+   padding-bottom: 94px;  
+}
+
+
+
+.team-section {
+    background-color: #F4F4FD;
+    margin-top: 100px;
+    
+}
+
+.our-team {
+    color:#2E2F42;
+    padding-top: 94px;
+    padding-bottom: 94PX;
+    display: flex;
+    justify-content: center;
+    weidth: 700;
+}
+
+.team-section .name {
+    color: #2E2F42;
+    background-color: white;
+}
+
+
+
+.date-employer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 94px;
+    
+}
+
+.name {
+    align-items:self-end;
+}
+
+
+.footer {
+    background-color: black;
+    color: #F4F4FD;
+    padding: 94px;
+}
+
+.logo2::before {
+    content: "Web";
+    color: blue;
+}
+
+.text {
+    width: 240px;
+    height: 80px;
+    }
+
+
+h2 {
+    weight 700;
+}
