@@ -96,6 +96,7 @@
     color: blue; 
 }
 
+
 .buttons {
    
     align-items: center;
@@ -109,15 +110,16 @@
     line-height: 1.62;
     border: none;
     padding: 6px 22px;
+}
 
 .buttons:hover,
 .buttons:focus {
     background-color: var(--logo-and-hover-color);
-    color: var(--white-color);
+    color: var(--coral-color);
     cursor: pointer;
 }
    
-}
+
 
 .container {
     display: flex;
@@ -136,6 +138,17 @@
     padding-bottom: 94px;
     flex-wrap: wrap;
 }
+
+.card-app:hover,
+.card-app:focus {
+    background-color: var(--logo-and-hover-color);
+    cursor: pointer;
+    
+} 
+
+.card-app:active::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}   
 
 .app-name {
     weight: 500;
