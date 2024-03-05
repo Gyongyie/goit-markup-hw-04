@@ -180,6 +180,7 @@ width: 1200px;
 
 .name {
     align-items:self-end;
+    align-items: center;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
             0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
             0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
@@ -189,11 +190,10 @@ width: 1200px;
 .icons-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 2px;
+    gap: 10px;
     margin-top: 5%;
     
 }
@@ -214,10 +214,15 @@ width: 1200px;
     justify-content: center;
     align-items: center;
 }
+
+
 .footer {
     background-color: black;
     color: #F4F4FD;
     padding: 94px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 .logo2::before {
@@ -230,6 +235,18 @@ width: 1200px;
     height: 80px;
     }
 
+.left-colum {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;   
+}
+    
+.right-colum {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;    
+
+}
 
 h2 {
     weight 700;
