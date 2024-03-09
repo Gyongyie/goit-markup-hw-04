@@ -68,23 +68,31 @@
 
 .contact1 {
     color: black;
-    Width: 153px;
+    display: flex;
     Height: 24px;
     text-decoration: none;
 }
 
 .contact2 {
    color: black;
-   Width: 151px;
+   display: flex;
    Height: 24px;
    text-decoration: none;
 }
 
+.contact1 svg {
+    width: 20px;
+    height: 20px;
+}
+
+.contact2 svg {
+    width: 20px;
+    height: 20px;
+}
 
  .global-section: :before {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
-   
 }
 
 .global-section{
